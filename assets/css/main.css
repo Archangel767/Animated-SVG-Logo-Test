@@ -1,0 +1,58 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0px;
+  background-color: #3e454c;
+  min-width: 350px;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  text-shadow: 1px 1px black;
+  color: white;
+  padding: 2%;
+}
+
+/*--------------------- Header - Logo and Nav starts here ---------------------*/
+
+main {
+  background-color: #380077;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+  height: 500px;
+}
+
+/*-- Inline SVG --*/
+
+
+svg {
+  width: 50vmin;
+}
+
+
+svg {
+  overflow: hidden;
+  border-radius: 50%;
+  position: relative;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+svg:hover {
+  background-color: #00ccff;
+  border: solid 1px black;
+  box-shadow: 0px 15px 20px #000;
+  color: #fff;
+  transform: translateY(-7px);
+  transform: rotate(365deg); 
+  filter: sepia(51%) saturate(578%) hue-rotate(346deg) brightness(104%) contrast(97%);
+}
+
